@@ -1,0 +1,156 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 77px auto 250px auto auto;
+  font-family: "jetbrains mono";
+  background-color: rgb(53, 19, 19);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container div {
+  border: 3px solid black;
+  padding: 15px;
+  color: rgb(229, 74, 74);
+}
+
+.header {
+  grid-row-start: 1;
+  text-align: center;
+  transition: all 0.3s ease;
+  grid-column-start: span 2;
+}
+.header h1:hover {
+  transition: all 0.3s ease;
+  font-size: 35px;
+}
+.desc {
+  background-color: rgb(96, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+}
+.header h1 {
+  transition: all 0.3s ease;
+  margin-top: -2px;
+  background-color: rgb(96, 0, 0);
+  border-radius: 20px;
+}
+.description {
+  grid-row-start: 3;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  grid-column-start: span 2;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+  transition: all 0.3s ease;
+  border-radius: 40px;
+  border: 3px solid rgb(229, 74, 4);
+}
+.image:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+.shimage {
+  grid-row-start: 2;
+  text-align: center;
+  grid-column-start: span 2;
+}
+.description:hover {
+  font-size: 20.5px;
+  transition: all 0.3s ease;
+}
+
+.recipe {
+  grid-row-start: 4;
+}
+.ingredients {
+  font-size: 25px;
+  transition: all 0.3s ease;
+  background-color: rgb(96, 0, 0);
+  padding: 40px;
+  border-radius: 20px;
+}
+.ingredients li {
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.ingimg {
+  margin-top: 14px;
+  width: auto;
+  height: 300px;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  border: 3px solid rgb(229, 74, 4);
+}
+.ingimage {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  text-align: center;
+}
+.ingimg:hover {
+  transform: scale(1.07);
+}
+.ingredients li:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.inst {
+  grid-row-start: 5;
+}
+.instl {
+  font-size: 25px;
+  transition: all 0.3s ease;
+  background-color: rgb(96, 0, 0);
+  padding: 50px;
+  border-radius: 30px;
+}
+.instl li {
+  font-size: 20px;
+  transition: all 0.3s ease;
+  
+}
+.instl li:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.recimg {
+  grid-row-start: 5;
+  text-align: center;
+}
+.recimgf {
+  margin-top: 20px;
+  width: auto;
+  height: 300px;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  border: 3px solid rgb(229, 74, 4);
+}
+.recimgf:hover {
+  transform: scale(1.07);
+}
+
+.linkd {
+  grid-row-start: 6;
+  text-align: center;
+  grid-column-start: span 2;
+}
+.link {
+  color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+  background-color: rgb(96, 0, 0);
+  padding: 8px;
+  border-radius: 35px;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  font-size: 18px;
+}
